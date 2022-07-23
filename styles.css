@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1rem;
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+    line-height: 1.6;
+}
+
+h1{
+    font-size: 2rem;
+    color: hsl(210, 10%, 33%);
+}
+
+h2{
+    font-size: 1.7rem;
+    color: hsl(210, 10%, 33%);
+
+}
+
+h3{
+    font-size: 1.4rem;
+    color: hsl(210, 10%, 33%);
+
+}
+
+
+/* Header */
+.bg-header-desktop{
+    width: 100%;
+    object-fit: fill;
+}
+
+.bg-header-mobile{
+    display: none;
+}
+
+.headerContent{
+    margin-top: -10%;
+    text-align: center;
+}
+
+.logo1{
+    width: 10%;
+    margin: auto;
+}
+
+.logo1_{
+    width: 100%;
+}
+
+header h1{
+    padding-top: 1em;
+}
+
+header p{
+    padding: 0.5em 0 2.5em 0;
+    width: 38%;
+    margin: auto;
+}
+
+.headerButtons{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+header .prefooter, button{
+    padding: 0.8em 1.8em;
+    border-radius: 25px;
+    border: 0px solid;
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+}
+
+header .prefooter, button:nth-of-type(1){
+    background-color: hsl(171, 66%, 44%);
+}
+
+header .prefooter, button:nth-of-type(2){
+    background-color: hsl(233, 100%, 69%);
+}
+
+header .prefooter, button:nth-of-type(1):hover{
+    background-color: #2cd5bb;
+    cursor: pointer;
+}
+
+header .prefooter, button:nth-of-type(2):hover{
+    background-color: hsl(231, 97%, 71%);
+    cursor: pointer;
+}
+
+
+
+
+/* Keep Track Section */
+.keepTrack{
+    margin: 10em 0;
+}
+
+.keepTrackIntro{
+    text-align: center;
+}
+
+.keepTrackIntro > p{
+    padding: 0.5em 0 3em 0;
+    width: 42%;
+    margin: auto;
+}
+
+.keepTrackContainer{
+    display: flex;
+    gap: 5%;
+}
+
+.keepTrackImage_{
+    width: 50%;
+}
+
+.keepTrackImage_, .accessClipboardImg_{
+    width: 100%;
+}
+
+.keepTrackText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15%;
+}
+
+.keepTrackText1 .keepTrackText2 .keepTrackText3, p{
+    width: 48%;
+}
+
+
+
+
+/* Access Clipboard Section */
+.accessClipboardImg{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+/* Supercharge Workflow Section */
+.superchargeWorkflowContainer1{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+.superchargeWorkflow1, .superchargeWorkflow2, .superchargeWorkflow3{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.superchargeWorkflow1 .superchargeWorkflow2 .superchargeWorkflow3, h3{
+    padding: 1em 0;
+}
+
+.superchargeWorkflow1 .superchargeWorkflow2 .superchargeWorkflow3, p{
+    width: 100%;
+}
+
+
+.superchargeWorkflowContainer2{
+    padding: 8%;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+/* .superchargeWorkflowImg1, .superchargeWorkflowImg2, .superchargeWorkflowImg3, .superchargeWorkflowImg4, .superchargeWorkflowImg5, .superchargeWorkflowImg6{
+
+} */
+
+.superchargeWorkflowImg1_, .superchargeWorkflowImg2_, .superchargeWorkflowImg3_, .superchargeWorkflowImg4_, .superchargeWorkflowImg5_, .superchargeWorkflowImg6_{
+    width: 100%;
+}
+
+
+
+/* Footer */
+footer{
+    width: 100%;
+    background-color: hsl(180, 3%, 94%);
+    margin-top: 6em;
+}
+
+footer section{
+    width: 72%;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 1em 0;
+}
+
+.logoContainer{
+    width: 30%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo_{
+    width: 100%;
+}
+
+.footerLinks{
+    width: 60%;
+    display: flex;
+    gap: 7%;
+    align-items: center;
+}
+
+.footerLinks1, .footerLinks2, .footerLinks3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.footerLinks1 .footerLinks2 .footerLinks3, a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+.footerLinks1 .footerLinks2 .footerLinks3, a:hover{
+    color: #2cd5bb;
+}
+
+.footerIcons{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.footerIcons1_:hover{
+    filter: invert(72%) sepia(21%) saturate(1394%) hue-rotate(119deg) brightness(98%) contrast(82%);
+    cursor: pointer;
+}
+
+.footerIcons2_:hover{
+    filter: invert(72%) sepia(21%) saturate(1394%) hue-rotate(119deg) brightness(98%) contrast(82%);
+    cursor: pointer;
+}
+
+.footerIcons3_:hover{
+    filter: invert(72%) sepia(21%) saturate(1394%) hue-rotate(119deg) brightness(98%) contrast(82%);
+    cursor: pointer;
+}
+
+
+
+/* Credits */
+.credits{
+    text-align: center;
+    font-size: 0.8em;
+    padding: 1em 1em;
+}
+ 
+.credits a{
+    text-decoration: none;
+}
+
+.credits a:hover{
+    color: #26BAA4;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 810px){ 
+    .headerContent{
+        margin-top: 0;
+        padding: 0 1em;
+    }
+    
+    .logo1{
+        width: 5em;
+    }
+    
+    header h1{
+        padding-top: 1em;
+    }
+    
+    header p{
+        padding: 0.5em 0 2.5em 0;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .headerButtons{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        justify-content: center;
+    }
+   
+    header .prefooter, button{
+        width: 70%;
+        margin: auto;
+    }
+
+
+
+    /* Keep Track */
+    .keepTrack{
+        margin: 6em 0;
+        padding: 0 1em;
+    }
+    
+    .keepTrackIntro{
+        text-align: center;
+    }
+    
+    .keepTrackIntro > p{
+        padding: 0.5em 0 3em 0;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .keepTrackContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+    }
+    
+    .keepTrackImage_{
+        width: 50%;
+    }
+    
+    .keepTrackImage_, .accessClipboardImg_{
+        width: 100%;
+    }
+    
+    .keepTrackText{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15%;
+        text-align: center;
+    }
+    
+    .keepTrackText1 .keepTrackText2 .keepTrackText3, p{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* Supercharge Workflow Section */
+    .superchargeWorkflowContainer1{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3em;
+        padding: 1em 1.5em 0 1.5em;
+    }
+
+    .superchargeWorkflow1, .superchargeWorkflow2, .superchargeWorkflow3{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .superchargeWorkflow1 .superchargeWorkflow2 .superchargeWorkflow3, p{
+        width: 100%;
+    }
+
+
+    .superchargeWorkflowContainer2{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5em;
+        padding: 5em 0;
+    }
+
+
+    /* Footer */
+    footer{
+        width: 100%;
+        background-color: hsl(180, 3%, 94%);
+        margin-top: 6em;
+    }
+
+    footer section{
+        width: 72%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+        padding: 1em 0;
+    }
+
+    .logoContainer{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        width: 40%;
+    }
+
+    .logo_{
+        width: 100%;
+    }
+
+    .footerLinks{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2em;
+        align-items: center;
+    }
+
+    .footerLinks1, .footerLinks2, .footerLinks3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .footerIcons{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+}
